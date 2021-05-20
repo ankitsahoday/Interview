@@ -1,0 +1,43 @@
+    <script>
+ //consectives 1s in binary array
+   function coolfunction() {
+
+    var arr=[0,1,0,1,1,1,0,1,0];
+    var max=-1;
+    var count=0;
+
+    for(let i=0;i<arr.length;i++)
+    {
+
+    if(arr[i]==1)
+    {
+    count++;
+    if(count>max)
+    {max=count;
+    }
+    }
+
+    else
+    {
+    count=0;
+
+    }
+
+
+
+    }
+
+    document.getElementById("demo").innerHTML=max;
+    }
+
+    </script>
+
+    <p style="color: green">
+    Considering binary array A={0,1,0,1,1,1,0,1,0}
+    </p>
+    <b>Press this button for answer</b>
+    <input type=button onClick="coolfunction()" value="Answer">
+
+    <p id="demo">Click to get answer</p>
+
+
