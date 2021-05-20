@@ -1,0 +1,31 @@
+
+<script>
+
+function myfunction()
+{
+
+var element=document.getElementById("ele");
+element.classList.add("mystyle");
+
+}
+
+
+
+</script>
+
+<style>
+.mystyle {
+  border-radius:30px;
+  padding:5px;
+  box-sizing: border-box;
+  background-color: red;
+}
+</style>
+
+<button onclick="myfunction()">Click Me</button>
+
+<br> 
+<br>
+
+<div id="ele">Javascript Developer</div>
+
